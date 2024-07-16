@@ -26,16 +26,19 @@
     width: fit-content;
     background-color: #FD6F00;
     padding: 0px 15px;
+    border-radius: 5px;
 }
 
 /* Navbar design END  */
-
-/* Introducing bio design start  */
 
 .bio_profile_container{
     display: flex;
     justify-content: space-between;
     margin: 80px 0px;
+}
+.pic_container img{
+    height: 400px;
+    width: 400px;
 }
 .introduce{
     font-size: 40px;
@@ -161,13 +164,16 @@
     display: flex;
     justify-content: space-between;
 }
+.aboutMe_header{
+    width: 50%;
+}
 .aboutMe_header h1{
     font-size: 40px;
     font-weight: 800;
     text-transform: uppercase;
 }
 .aboutMe_header p{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
 }
 .stars{
@@ -255,7 +261,7 @@ h2 {
     color: white;    
     margin: 0px 8%;
     /* background-color: #141014; */
-    background-color: #ee8a082b;
+    background-color: #ee8a085b;
     border-radius: 12px;
 }
 .contact-content {
@@ -381,7 +387,7 @@ button:hover {
 }
 .logo_footer h1{
     color: #FD6F00;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     padding-top: 30px;
 }
@@ -410,3 +416,135 @@ button:hover {
     padding-top: 5px;
 }
 /* Footer Section END.. */
+
+
+/* Responsiveness section */
+
+@media only screen and (min-width: 800px) and (max-width: 1230px) {
+    .bio_profile_container{
+        flex-direction: column-reverse;
+    }
+    .pic_container img{
+        height: 350px;
+        width: 350px;
+    }
+    .body_part{
+        flex-direction: column;
+    }
+    .body_part img{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media only screen  and (max-width: 800px) {
+    .nav_container{
+        display: inline;
+    }
+    .intro_skills{
+        display: inline;
+    }
+    .hire_container{
+        margin-top: 40px;
+    }
+    .skill_set{
+        display: inline;
+    }
+    .skill{
+        padding: 0px 15px;
+    }
+    .experience_content h2{
+        font-size: 24px;
+    }
+    .contact-content{
+        display: inline;
+    }
+    .bio_profile_container{
+        flex-direction: column-reverse;
+    }
+    .pic_container img{
+        height: 250px;
+        width: 250px;
+    }
+    .body_part{
+        flex-direction: column;
+    }
+    .body_part img{
+        height: 350px;
+        width: 350px;
+    }
+    .right-column{
+        width: 90%;
+    }
+    .footer_container{
+        display: inline;
+    }
+    .footer_title{
+        padding-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+    .contact-header p{
+        font-size: 26px;
+    }
+    .contact-header h2{
+        font-size: 22px;
+    }
+    .body_part img{
+        height: 200px;
+        width: 200px;
+    }
+    .pic_container img{
+        height: 150px;
+        width: 150px;
+    }
+    .skill13{
+        font-size: 24px;
+    }
+    .hire_container{
+        width: fit-content;
+    }
+    .timeline-content{
+        font-size: 20px;
+    }
+    .education h2{
+        font-size: 26px;
+    }
+    .introduce{
+        font-size: 30px;
+    }
+    .brief_shortly{
+        font-size: 22px;
+    }
+    .aboutMe_header h1{
+        font-size: 26px;
+    }
+    .Title_part h1{
+        font-size: 30px;
+    }
+    .experience_years{
+        font-size: 24px;
+    }
+    .education{
+        margin-right: 0px;
+    }
+    .skill h1{
+        font-size: 24px;
+    }
+    .project_desc h1{
+        font-size: 30px;
+    }
+    .logo_footer h1{
+        font-size: 26px;
+    }
+    #mail00{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:200px){
+    body{
+        display: none;
+    }
+}
