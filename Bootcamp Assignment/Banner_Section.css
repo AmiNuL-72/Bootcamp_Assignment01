@@ -1,0 +1,93 @@
+.main_container{
+    background-color:#1E1E1E;
+}
+.banner_section{
+    height: 100%;
+    color: white;    
+    margin: 0px 8%;
+}
+.nav_container{    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.logo{
+    height: 30px;
+    width: 30%;
+}
+.logo h1{
+    color: #FD6F00;
+    font-size: 32px;
+    font-weight: 700;
+}
+.cv_download{
+    width: fit-content;
+    background-color: #FD6F00;
+    padding: 0px 15px;
+}
+
+/* Navbar design END  */
+
+/* Introducing bio design start  */
+
+.bio_profile_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0px;
+}
+.introduce{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#Dhaka{
+    color: #FD6F00;
+}
+.brief_shortly{
+    font-size: 25px;
+}
+.intro_skills{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    gap: 10px;
+    margin: 40px 0px;
+}
+.hire_container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: darkslategray;
+    margin-bottom: 40px;
+}
+.portfolio_arrow{
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #FD6F00;
+    border-radius: 50px;
+    margin: 7px 7px;
+    text-align: center;
+}
+#port00{
+    font-size: 25px;
+}
+.hireMe{
+    padding-top: 7px;
+}
+
+
+/* social link design part */
+
+.social_links{
+    display: flex;
+    gap: 30px;  
+    margin-bottom: 50px;  
+}
+.github img{
+    height: 33px;
+    width: 33px;
+}
